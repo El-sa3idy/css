@@ -1,0 +1,682 @@
+﻿
+* vBulletin 3.8.7 CSS
+* Style: 'ستايل علاء الفاتك الإصدار الخامس 2012 - CSS'; Style ID: 42
+*/
+body
+{
+	background: #f0f0f0;
+	color: #1E4863;
+	font: 7pt Tahoma;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #1E4863;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #1E4863;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #CC0000;
+	text-decoration: none;
+}
+.page
+{
+	background: #f0f0f0 url(http://i81.servimg.com/u/f81/17/86/26/69/b_g10.gif);
+	color: #1E4863;
+	font: 8pt Tahoma;
+}
+.page a:link, .page_alink
+{
+	text-decoration: none;
+}
+.page a:visited, .page_avisited
+{
+	text-decoration: none;
+}
+.page a:hover, .page a:active, .page_ahover
+{
+	text-decoration: none;
+}
+td, th, p, li
+{
+	font: bold 11pt Arial;
+}
+.tborder
+{
+	background: #E3E3E3;
+	color: #000066;
+	font: 8pt Tahoma;
+	border-left:1px solid #E3E3E3;
+	border-top: 1px solid #E3E3E3;
+	border-right: 1px solid #E3E3E3;
+	border-bottom: 1px solid #E3E3E3;
+}
+.tcat
+{
+	background: #2e5271 url(http://i81.servimg.com/u/f81/17/86/26/69/top_110.gif);
+	color: #FFFFFF;
+	font: bold 12pt Arial;
+	border-left:1px solid #5290AC;
+	border-top: 1px solid #5290AC;
+	border-right: 1px solid #376B87;
+	border-bottom: 1px solid #376B87;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+.thead
+{
+	background: #EAEAEA url(http://i81.servimg.com/u/f81/17/86/26/69/top_210.gif);
+	color: #000066;
+	font: bold 11pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	
+	border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	 -moz-border-radius:5px; 
+}
+.thead a:link, .thead_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #0000FF;
+	text-decoration: none;
+}
+.tfoot
+{
+	background: #2e5271 url(http://i81.servimg.com/u/f81/17/86/26/69/top_110.gif);
+	color: #FFFFFF;
+	font: 8pt Tahoma;
+	border-left:1px solid #5290AC;
+	border-top: 1px solid #5290AC;
+	border-right: 1px solid #376B87;
+	border-bottom: 1px solid #376B87;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+.alt1, .alt1Active
+{
+	background: #f5f5f5;
+	color: #0000CC;
+	font: bold 12pt Arial;
+	border-left:1px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	background-position: top right; 
+	background-repeat: repeat-x; 
+	background-image: url(http://i81.servimg.com/u/f81/17/86/26/69/a_110.gif); 
+	background-attachment:scroll;
+	
+	border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	 -moz-border-radius:9px; 
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #0000CC;
+	text-decoration: none;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #000066;
+	text-decoration: none;
+}
+.alt2, .alt2Active
+{
+	background: #dae1f0;
+	color: #000066;
+	font: bold 12pt Arial;
+	border-left:1px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	background-position: top right; 
+	background-repeat: repeat-x; 
+	background-image: url(http://i81.servimg.com/u/f81/17/86/26/69/a_210.gif); 
+	background-attachment:scroll;
+	
+	border-radius: 9px; 
+	-webkit-border-radius: 9px;
+	 -moz-border-radius:9px; 
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #0000CC;
+	text-decoration: none;
+}
+.inlinemod
+{
+	background: #f5f5f5;
+	color: #000066;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-bottom: 1px solid #fad37c;background-position: top right; 
+	background-repeat: repeat-x; 
+	background-image: url(http://i81.servimg.com/u/f81/17/86/26/69/a_110.gif); 
+	background-attachment:scroll;
+}
+.inlinemod a:link, .inlinemod_alink
+{
+	text-decoration: none;
+}
+.inlinemod a:visited, .inlinemod_avisited
+{
+	text-decoration: none;
+}
+.inlinemod a:hover, .inlinemod a:active, .inlinemod_ahover
+{
+	text-decoration: none;
+}
+.wysiwyg
+{
+	background: #f5f5f5;
+	color: #000066;
+	font: bold 12pt Arial;
+	background-position: top right; 
+	background-repeat: repeat-x; 
+	background-image: url(http://i81.servimg.com/u/f81/17/86/26/69/a_110.gif); 
+	background-attachment:scroll;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #0000CC;
+	text-decoration: none;
+}
+textarea, .bginput
+{
+	background: #EAEAEA url(http://i81.servimg.com/u/f81/17/86/26/69/a_110.gif);
+	font: bold 12pt Arial;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 12pt;
+	font-family: Arial;
+}
+.button
+{
+	background: #EAEAEA url(http://i81.servimg.com/u/f81/17/86/26/69/top_210.gif);
+	color: #000066;
+	font: bold 12pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+}
+slect
+{
+	font: 8pt Tahoma;
+}
+option, optgroup
+{
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+.smallfont
+{
+	font: 8pt Tahoma;
+}
+.time
+{
+	color: #CC0000;
+}
+.highlight
+{
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #000066;
+	color: #f5f5f5;
+}
+.fjdpth0
+{
+	background: #f5f5f5;
+	color: #000066;
+}
+.panel
+{
+	background: #f5f5f5;
+	color: #01203C;
+	font: bold 11pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+}
+.panel a:link, .panel_alink
+{
+	text-decoration: none;
+}
+.panel a:visited, .panel_avisited
+{
+	text-decoration: none;
+}
+.panel a:hover, .panel a:active, .panel_ahover
+{
+	text-decoration: none;
+}
+.panelsurround
+{
+	background: #f5f5f5;
+	color: #000066;
+	font: bold 11pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+}
+legend
+{
+	color: #000066;
+	font: 8pt Tahoma;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+}
+.vbmenu_control
+{
+	background: #2e5271 url(http://i81.servimg.com/u/f81/17/86/26/69/top_110.gif);
+	color: #FFFFFF;
+	font: bold 11pt Arial;
+	border-left:1px solid #8dcae7;
+	border-top: 1px solid #8dcae7;
+	border-right: 1px solid #0c2844;
+	border-bottom: 1px solid #0c2844;
+	
+	
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+.vbmenu_popup
+{
+	background: #f5f5f5;
+	color: #000066;
+	font: bold 11pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	background-position: top right; 
+	background-repeat: repeat-x; 
+	background-image: url(http://i81.servimg.com/u/f81/17/86/26/69/a_110.gif); 
+	background-attachment:scroll;
+}
+.vbmenu_option
+{
+	background: #2e5271 url(http://i81.servimg.com/u/f81/17/86/26/69/top_110.gif);
+	color: #FFFFFF;
+	font: bold 11pt Arial;
+	border-left:1px solid #5290AC;
+	border-top: 1px solid #5290AC;
+	border-right: 1px solid #376B87;
+	border-bottom: 1px solid #376B87;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFCC00;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #EAEAEA url(http://i81.servimg.com/u/f81/17/86/26/69/top_210.gif);
+	color: #000066;
+	font: bold 11pt Arial;
+	border-left:1px solid #D8D8D8;
+	border-top: 1px solid #D8D8D8;
+	border-right: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #0000CC;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+html 
+{ 
+scrollbar-3dlight-color:#1B6892;
+scrollbar-shadow-color:#1B6892;
+scrollbar-face-color: #1B6892;
+scrollbar-base-color: #1B6892;
+scrollbar-darkshadow-color:#d6d6d6;
+scrollbar-highlight-color:#d6d6d6;
+scrollbar-arrow-color: #d6d6d6;
+scrollbar-track-color #d6d6d6; 
+}
+
+
+fieldset{border:1px solid #61a1c8;padding:12px;} 
+
+
+
+/* ***** H1 و H2 تاجات ***** */
+#tags {
+text-align: center;
+font-family: Arial, Tahoma, Verdana;
+}
+
+#tags h1 {
+font-size: 19px; 
+color: blue dark;
+font-weight: bold;
+}
+
+#tags h2 {
+font-size: 17px; 
+color: blue dark;
+font-weight: bold;
+}
+
+
+.header_bg {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate10.jpg');
+	background-repeat: repeat-x;
+	height: 320px;
+}
+.header_c {
+	background-image: url('http://i76.servimg.com/u/f76/17/86/26/69/alfate12.png');
+	background-repeat: no-repeat;
+	height: 320px;
+	width: 636px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.link_1 {
+	position: absolute;
+	height: 20px;
+	width: 57px;
+	right: 50px;
+	top: 10px;
+}
+.link_2 {
+	position: absolute;
+	height: 20px;
+	width: 57px;
+	right: 130px;
+	top: 10px;
+}
+.link_3 {
+	position: absolute;
+	width: 57px;
+	height: 20px;
+	right: 213px;
+	top: 10px;
+}
+.link_4 {
+	position: absolute;
+	width: 57px;
+	height: 20px;
+	right: 292px;
+	top: 10px;
+}
+.link_5 {
+	position: absolute;
+	width: 57px;
+	height: 18px;
+	bottom: 63px;
+	right: 115px;
+}
+.link_6 {
+	position: absolute;
+	width: 60px;
+	height: 18px;
+	right: 198px;
+	bottom: 63px;
+}
+.link_7 {
+	position: absolute;
+	width: 69px;
+	height: 18px;
+	right: 280px;
+	bottom: 63px;
+}
+.link_8 {
+	position: absolute;
+	width: 67px;
+	height: 18px;
+	bottom: 64px;
+	left: 200px;
+}
+.link_9 {
+	position: absolute;
+	width: 67px;
+	height: 18px;
+	bottom: 64px;
+	left: 114px;
+}
+.link_10 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 3px;
+	left: 110px;
+}
+.link_11 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 3px;
+	left: 75px;
+}
+.link_12 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 2px;
+	left: 42px;
+}
+
+.border_bg {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate11.jpg');
+	background-repeat: repeat-x;
+	height: 36px;
+}
+.border_r {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate12.jpg');
+	background-repeat: repeat;
+	float: right;
+	height: 36px;
+	width: 70px;
+}
+.border_l {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate13.jpg');
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 44px;
+	float: left;
+}
+
+
+.border_f_bg {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate14.jpg');
+	background-repeat: repeat-x;
+	height: 56px;
+}
+
+
+.border_f_r {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate15.jpg');
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 70px;
+	float: right;
+}
+.border_f_l_1 {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate16.jpg');
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 44px;
+	float: left;
+}
+.border_f_l_2 {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate17.jpg');
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 236px;
+	float: left;
+}
+.border_bg_c{
+	background:transparent; 
+	color:white;
+}
+.border_bg_r{
+	background: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate18.jpg') repeat-y right center;
+	padding-right:70px;
+}
+.border_bg_l{
+	background: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate19.jpg') repeat-y left center;
+	padding-left:44px;
+}
+
+
+.footer_bg {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate20.jpg');
+	background-repeat: repeat-x;
+	height: 48px;
+}
+.footer_r {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate21.jpg');
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 113px;
+	float: right;
+}
+.footer_l {
+	background-image: url('http://i81.servimg.com/u/f81/17/86/26/69/alfate22.jpg');
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 39px;
+	position: relative;
+	float: left;
+}
+
+.link {
+	position: absolute;
+	height: 32px;
+	width: 34px;
+	top: 12px;
+	left: 4px;
+}
